@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, header, main, footer {
+    
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header nav {
+    
+    overflow: hidden;
+   
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 60px 74px;
+    display:block;
+    color: rgb(69, 214, 233);
+    text-decoration:none;
+    font-family:kokonor;
+    font-size: 14pt;
+    
+}
+
+a:hover {
+    color: rgb(345, 44, 200)
+}
+
+div#logotipo  {
+    background: white;
+    width: 100%
+}
+
+
+img#logo sheepmaria {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    
+}
+
+div#portada {
+    background-color: white;
+    width: 100%;
+}
+
+
+
+header nav ul li a:hover {
+
+    
+    
+}
+
+.main .articles {
+    width: 70%;
+    float: left;
+    background-color: seagreen;
+}
+
+footer {
+    color: black;
+    clear:both;
+    text-align:center;
+}
+
+/* Código para hacer que se acomode a pantallas */
+/* Se ve de una manera con pantallas que sean desde 850px en arriba */
+@media(min-width: 850px){
+    li {
+        min-width: 25%;
+        width: 25%;
+        max-width: 100%;
+    }
+
+    img#portada2 {
+        width: 840px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+}
+/* Pantallas que tengan menos de 849px de ancho para abajo */
+@media(max-width: 849px){
+    li {
+        width: 100%;
+    }
+
+    img#portada2 {
+        width: 420px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+}
